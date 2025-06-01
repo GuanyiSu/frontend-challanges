@@ -1,0 +1,69 @@
+.title {
+  font-size: 30px;
+  font-family: "Ropa Sans", sans-serif;
+  margin-block: 117px 49px;
+}
+
+.section {
+  background: #bdc3fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 720px;
+}
+
+.timer-wrapper {
+  background: white;
+  width: 639px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 552px;
+}
+
+.time {
+  font-family: "Roboto Mono", sans-serif;
+  padding-inline: 27px;
+  min-width: 55px;
+  font-size: 45px;
+  text-align: center;
+  background-color: #bdc3fe;
+  margin-bottom: 55px;
+}
+
+.button-start {
+  color: white;
+  background-color: #03ae85;
+  border-radius: 3px;
+  width: 118px;
+  font-size: 18px;
+  height: 40px;
+}
+
+.button-restart:hover,
+.button-stop:hover,
+.button-start:hover {
+  cursor: pointer;
+}
+
+.button-stop {
+  background-color: white;
+  border-radius: 3px;
+  width: 118px;
+  font-size: 18px;
+  height: 40px;
+}
+
+.button-restart {
+  color: white;
+  background-color: #fd6259;
+  border-radius: 3px;
+  width: 118px;
+  font-size: 18px;
+  height: 40px;
+}
+
+.buttons-group {
+  display: flex;
+  gap: 15px;
+}
